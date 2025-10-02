@@ -1,14 +1,13 @@
 import yaml
 
-from src.draft_tokenizer_builder import DraftTokenizerBuilder
+from src.utils.tokenizer_builder import DraftTokenizerBuilder
 
-with open("config/config.yaml", "r") as f:
+with open("config/tokenizer_config.yaml", "r") as f:
     config = yaml.safe_load(f)
 
 builder = DraftTokenizerBuilder(
-    champions_path=config["champions_path"],
-    draft_tokens_path=config["draft_tokens_path"],
-    save_dir=config["tokenizer_path"],
+    vocab_dir=config["vocab_dir"],
+    save_dir=config["save_dir"],
     log_level="INFO"
 )
 builder.save_tokenizer()

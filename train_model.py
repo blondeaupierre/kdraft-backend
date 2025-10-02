@@ -1,12 +1,11 @@
 import yaml
 from src.trainer import DraftModelTrainer
 
-with open("config/config.yaml", "r") as f:
+with open("config/train_config.yaml", "r") as f:
     config = yaml.safe_load(f)
 
 trainer = DraftModelTrainer(
-    train_output_dir=config["model_path"],
-
+    train_output_dir=config["train_output_dir"],
     tokenizer_path=config["tokenizer_path"],
     train_dataset_path=config["train_dataset_path"],
     val_dataset_path=config["val_dataset_path"],

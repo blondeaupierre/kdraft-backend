@@ -1,0 +1,8 @@
+# config/train_config.yaml
+train_output_dir: resources/trained_models/drafts_context_tokens_model
+tokenizer_path: resources/tokenizer
+train_dataset_path: resources/datasets/train_context_tokens.csv
+val_dataset_path: resources/datasets/val_context_tokens.csv
+max_length: 50
+batch_size: 64
+num_epochs: 5

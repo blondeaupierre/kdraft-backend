@@ -2,7 +2,7 @@ import yaml
 
 from src.tester import DraftModelEvaluator
 
-with open("config/config.yaml", "r") as f:
+with open("config/test_config.yaml", "r") as f:
     config = yaml.safe_load(f)
 
 evaluator = DraftModelEvaluator(
@@ -12,5 +12,5 @@ evaluator = DraftModelEvaluator(
     max_length=config["max_length"],
     log_level="INFO"
 )
-evaluator.save_results()  # Prints results
-# evaluator.save_results("results.txt")  # Optionally save to file
+# evaluator.save_results()  # Prints results
+evaluator.save_results("results.txt")  # Optionally save to file

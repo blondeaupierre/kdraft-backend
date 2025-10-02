@@ -1,37 +1,48 @@
 import csv
+from pathlib import Path
 
 from mwrogue.esports_client import EsportsClient
 
-# Définir le fichier de sortie
-output_file = "../../resources/data/drafts_from_25_16.csv"
-
 site = EsportsClient("lol")
 
-top_4_teams = site.cargo_client.query(
+vocab_dir = Path("../../resources/vocab")
+vocab_dir.mkdir(exist_ok=True)
+
+output_file = "../../resources/data/drafts_context_tokens.csv"
+
+# -----------------------------
+# Gather top X teams
+# -----------------------------
+top_X_teams = site.cargo_client.query(
     tables="TournamentResults=TR",
     fields="TR.Team",
-    where="TR.Place_Number <= '4'"
-          "AND TR.Tier = 'Offline'"
-          # "AND TR.Tier = 'Offline' OR  TR.Tier = 'Online/Offline'"
+    where="TR.Place_Number <= '8'"
+    # "AND TR.Tier = 'Offline'"
+          "AND TR.Tier = 'Offline' OR  TR.Tier = 'Online/Offline'"
           "AND TR.Date >= '2025-04-01'"
           "AND TR.Team IS NOT NULL",
     group_by="TR.Team"
 )
 
-teams = [row["Team"] for row in top_4_teams]
+teams = sorted({row["Team"] for row in top_X_teams if row["Team"]})
 
-# échappe les apostrophes simples
-escaped = [t.replace("'", "''") for t in teams if t is not None]
+with (vocab_dir / "teams.txt").open("w", encoding="utf-8") as f:
+    f.write("\n".join(teams))
+print(f"{len(teams)} teams saved to vocab/teams.txt")
 
+# -----------------------------
+# Get the drafts
+# -----------------------------
+escaped = [t.replace("'", "''") for t in teams]
 teams_filter = "('" + "','".join(escaped) + "')"
-
-print("Number of teams : " + str(len(teams)))
-print(teams_filter)
 
 drafts = site.cargo_client.query(
     tables="MatchSchedule=MS, PicksAndBansS7=PAB",
     join_on="MS.MatchId=PAB.MatchId",
-    fields="PAB.Team1Ban1, "
+    fields="PAB.Team1, "
+           "PAB.Team2, "
+           "MS.Patch, "
+           "PAB.Team1Ban1, "
            "PAB.Team2Ban1, "
            "PAB.Team1Ban2, "
            "PAB.Team2Ban2, "
@@ -52,7 +63,10 @@ drafts = site.cargo_client.query(
            "PAB.Team1Pick5, "
            "PAB.Team2Pick5"
     ,
-    where="MS.Patch>='25.16' "
+    where="MS.Patch>='12.10' "
+          "AND PAB.Team1 IS NOT NULL AND PAB.Team1 <> 'None' AND PAB.Team1 <> 'Missing Data'"
+          "AND PAB.Team2 IS NOT NULL AND PAB.Team2 <> 'None' AND PAB.Team2 <> 'Missing Data'"
+
           "AND PAB.Team1Ban1 IS NOT NULL AND PAB.Team1Ban1 <> 'None' AND PAB.Team1Ban1 <> 'Missing Data'"
           "AND PAB.Team1Ban2 IS NOT NULL AND PAB.Team1Ban2 <> 'None' AND PAB.Team1Ban2 <> 'Missing Data'"
           "AND PAB.Team1Ban3 IS NOT NULL AND PAB.Team1Ban3 <> 'None' AND PAB.Team1Ban3 <> 'Missing Data'"
@@ -79,12 +93,46 @@ drafts = site.cargo_client.query(
           f"AND (MS.Team1 IN {teams_filter} OR MS.Team2 IN {teams_filter})"
 )
 
-fieldnames = drafts[0].keys()
+# Exemple de mapping : colonne originale -> nouveau nom
+column_rename = {
+    "Team1": "BLUE_TEAM",
+    "Team2": "RED_TEAM",
+    "Patch": "PATCH",
+    "Team1Ban1": "BLUE_BAN1",
+    "Team2Ban1": "RED_BAN1",
+    "Team1Ban2": "BLUE_BAN2",
+    "Team2Ban2": "RED_BAN2",
+    "Team1Ban3": "BLUE_BAN3",
+    "Team2Ban3": "RED_BAN3",
+    "Team1Pick1": "BLUE_PICK1",
+    "Team2Pick1": "RED_PICK1",
+    "Team2Pick2": "RED_PICK2",
+    "Team1Pick2": "BLUE_PICK2",
+    "Team1Pick3": "BLUE_PICK3",
+    "Team2Pick3": "RED_PICK3",
+    "Team2Ban4": "RED_BAN4",
+    "Team1Ban4": "BLUE_BAN4",
+    "Team2Ban5": "RED_BAN5",
+    "Team1Ban5": "BLUE_BAN5",
+    "Team2Pick4": "RED_PICK4",
+    "Team1Pick4": "BLUE_PICK4",
+    "Team1Pick5": "BLUE_PICK5",
+    "Team2Pick5": "RED_PICK5"
+}
 
-# Écriture dans un fichier CSV
+new_fieldnames = [column_rename.get(col, col) for col in drafts[0].keys()]
+
+renamed_drafts = [{column_rename.get(k, k): v for k, v in row.items()} for row in drafts]
+
 with open(output_file, mode='w', newline='', encoding='utf-8') as f:
-    writer = csv.DictWriter(f, fieldnames=fieldnames)
+    writer = csv.DictWriter(f, fieldnames=new_fieldnames)
     writer.writeheader()
-    writer.writerows(drafts)
+    writer.writerows(renamed_drafts)
 
 print(f"Dataset saved to {output_file}, total drafts: {len(drafts)}")
+
+# -------- Patches --------
+patches = sorted({row["Patch"] for row in drafts if row["Patch"]})
+with (vocab_dir / "patches.txt").open("w", encoding="utf-8") as f:
+    f.write("\n".join(patches))
+print(f"{len(patches)} patches saved to vocab/patches.txt")

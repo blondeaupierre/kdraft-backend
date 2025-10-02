@@ -1,0 +1,5 @@
+# config/train_config.yaml
+model_path: resources/trained_models/drafts_context_tokens_model
+tokenizer_path: resources/tokenizer
+test_dataset_path: resources/datasets/test_context_tokens.csv
+max_length: 50

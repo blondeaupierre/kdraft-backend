@@ -1,10 +1,12 @@
+import csv
 import logging
+from pathlib import Path
 
 from tokenizers import Tokenizer
 from tokenizers.models import WordLevel
 from transformers import PreTrainedTokenizerFast
 
-from src.data_utils import load_champions, load_draft_tokens
+from src.utils.data_utils import load_txt, load_draft_tokens
 
 
 class DraftTokenizerBuilder:
@@ -12,26 +14,30 @@ class DraftTokenizerBuilder:
 
     def __init__(
             self,
-            champions_path: str,
-            draft_tokens_path: str,
+            vocab_dir: str,
             save_dir: str,
             log_level: str = "INFO"
     ):
         logging.basicConfig(level=getattr(logging, log_level))
         self.logger = logging.getLogger(__name__)
 
-        if not all([champions_path, draft_tokens_path, save_dir]):
-            raise ValueError("champions_path, draft_tokens_path and save_dir paths must be provided")
-
-        # Load champions and draft_tokens
-        self.champions = load_champions(champions_path)
-        self.draft_tokens = load_draft_tokens(draft_tokens_path)
+        vocab_dir = Path(vocab_dir)
         self.save_dir = save_dir
+
+        if not vocab_dir.exists():
+            raise FileNotFoundError(f"Vocab directory not found: {vocab_dir}")
+
+        self.champions = load_txt(vocab_dir / "champions.txt")
+        self.draft_tokens = load_txt(vocab_dir / "draft_tokens.txt")
+        self.teams = load_txt(vocab_dir / "teams.txt")
+        self.patches = load_txt(vocab_dir / "patches.txt")
+        self.special_tokens = load_txt(vocab_dir / "special_tokens.txt")
+        self.meta_tokens = load_txt(vocab_dir / "meta_tokens.txt")
+        self.sides = ["BLUE", "RED"]
 
     def build_tokenizer(self) -> PreTrainedTokenizerFast:
         # Gather all tokens
-        special_tokens = ["<UNK>", "<PAD>", "<BOS>", "<EOS>"]
-        all_tokens = special_tokens + self.champions + self.draft_tokens
+        all_tokens = self.special_tokens + self.meta_tokens + self.draft_tokens + self.champions + self.teams + self.patches + self.sides
         self.logger.debug(f"Vocabulary: {all_tokens}")
 
         # Map tokens → ids

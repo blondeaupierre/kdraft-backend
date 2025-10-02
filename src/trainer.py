@@ -102,6 +102,7 @@ class DraftModelTrainer:
                 per_device_eval_batch_size=self.batch_size,
                 eval_strategy="epoch",
                 save_strategy="epoch",
+                save_total_limit=3,
                 load_best_model_at_end=True,  # required if using early stopping
                 metric_for_best_model="eval_loss",  # monitor validation loss
             ),
