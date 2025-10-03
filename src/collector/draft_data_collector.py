@@ -3,6 +3,8 @@ from pathlib import Path
 
 from mwrogue.esports_client import EsportsClient
 
+from src.utils.data_utils import load_txt
+
 site = EsportsClient("lol")
 
 vocab_dir = Path("../../resources/vocab")
@@ -11,28 +13,9 @@ vocab_dir.mkdir(exist_ok=True)
 output_file = "../../resources/data/drafts_context_tokens.csv"
 
 # -----------------------------
-# Gather top X teams
-# -----------------------------
-top_X_teams = site.cargo_client.query(
-    tables="TournamentResults=TR",
-    fields="TR.Team",
-    where="TR.Place_Number <= '8'"
-    # "AND TR.Tier = 'Offline'"
-          "AND TR.Tier = 'Offline' OR  TR.Tier = 'Online/Offline'"
-          "AND TR.Date >= '2025-04-01'"
-          "AND TR.Team IS NOT NULL",
-    group_by="TR.Team"
-)
-
-teams = sorted({row["Team"] for row in top_X_teams if row["Team"]})
-
-with (vocab_dir / "teams.txt").open("w", encoding="utf-8") as f:
-    f.write("\n".join(teams))
-print(f"{len(teams)} teams saved to vocab/teams.txt")
-
-# -----------------------------
 # Get the drafts
 # -----------------------------
+teams = load_txt(vocab_dir / "teams.txt")
 escaped = [t.replace("'", "''") for t in teams]
 teams_filter = "('" + "','".join(escaped) + "')"
 

@@ -1,6 +1,6 @@
 from pathlib import Path
 
-def load_txt(path: Path) -> list:
+def load_txt(path: Path|str) -> list:
     try:
         with open(path, "r", encoding="utf-8") as f:
             return [line.strip() for line in f if line.strip()]

@@ -1,0 +1,217 @@
+[
+  {
+    "short_name": "AL",
+    "full_name": "Anyone's Legend",
+    "region": "China"
+  },
+  {
+    "short_name": "AL.Y",
+    "full_name": "Anyone's Legend.Young",
+    "region": "China"
+  },
+  {
+    "short_name": "UCH.F",
+    "full_name": "Azules Esports Fem",
+    "region": "Americas"
+  },
+  {
+    "short_name": "BAR",
+    "full_name": "Barça eSports",
+    "region": "EMEA"
+  },
+  {
+    "short_name": "BCE",
+    "full_name": "Barcząca Esports",
+    "region": "EMEA"
+  },
+  {
+    "short_name": "BLG",
+    "full_name": "Bilibili Gaming",
+    "region": "China"
+  },
+  {
+    "short_name": "BLG.J",
+    "full_name": "Bilibili Gaming Junior",
+    "region": "China"
+  },
+  {
+    "short_name": "DCG",
+    "full_name": "Deep Cross Gaming",
+    "region": "Asia Pacific"
+  },
+  {
+    "short_name": "EDG",
+    "full_name": "EDward Gaming",
+    "region": "China"
+  },
+  {
+    "short_name": "VIP",
+    "full_name": "Eesti Rästikud",
+    "region": "EMEA"
+  },
+  {
+    "short_name": "FNC",
+    "full_name": "Fnatic",
+    "region": "EMEA"
+  },
+  {
+    "short_name": "FPX",
+    "full_name": "FunPlus Phoenix",
+    "region": "China"
+  },
+  {
+    "short_name": "FPB",
+    "full_name": "FunPlus Phoenix Blaze",
+    "region": "China"
+  },
+  {
+    "short_name": "G2",
+    "full_name": "G2 Esports",
+    "region": "EMEA"
+  },
+  {
+    "short_name": "GX",
+    "full_name": "GIANTX",
+    "region": "EMEA"
+  },
+  {
+    "short_name": "iG",
+    "full_name": "Invictus Gaming",
+    "region": "China"
+  },
+  {
+    "short_name": "JDG",
+    "full_name": "JD Gaming",
+    "region": "China"
+  },
+  {
+    "short_name": "KC",
+    "full_name": "Karmine Corp",
+    "region": "EMEA"
+  },
+  {
+    "short_name": "LGD",
+    "full_name": "LGD Gaming",
+    "region": "China"
+  },
+  {
+    "short_name": "LGD.Y",
+    "full_name": "LGD Gaming Young Team",
+    "region": "China"
+  },
+  {
+    "short_name": "LNG.A",
+    "full_name": "LNG Academy",
+    "region": "China"
+  },
+  {
+    "short_name": "LNG",
+    "full_name": "LNG Esports",
+    "region": "China"
+  },
+  {
+    "short_name": "HRTS",
+    "full_name": "Los Heretics",
+    "region": "EMEA"
+  },
+  {
+    "short_name": "MKOI",
+    "full_name": "Movistar KOI",
+    "region": "EMEA"
+  },
+  {
+    "short_name": "NAVI",
+    "full_name": "Natus Vincere",
+    "region": "EMEA"
+  },
+  {
+    "short_name": "OMG",
+    "full_name": "Oh My God",
+    "region": "China"
+  },
+  {
+    "short_name": "OMG.A",
+    "full_name": "Oh My God Academy",
+    "region": "China"
+  },
+  {
+    "short_name": "PTX",
+    "full_name": "Pertinax Esports",
+    "region": "EMEA"
+  },
+  {
+    "short_name": "SK",
+    "full_name": "SK Gaming",
+    "region": "EMEA"
+  },
+  {
+    "short_name": "FMS",
+    "full_name": "StormMedia Fajnie Mieć Skład",
+    "region": "EMEA"
+  },
+  {
+    "short_name": "BDS",
+    "full_name": "Team BDS",
+    "region": "EMEA"
+  },
+  {
+    "short_name": "TH",
+    "full_name": "Team Heretics",
+    "region": "EMEA"
+  },
+  {
+    "short_name": "VIT",
+    "full_name": "Team Vitality",
+    "region": "EMEA"
+  },
+  {
+    "short_name": "WE",
+    "full_name": "Team WE",
+    "region": "China"
+  },
+  {
+    "short_name": "WE.A",
+    "full_name": "Team WE Academy",
+    "region": "China"
+  },
+  {
+    "short_name": "TT",
+    "full_name": "ThunderTalk Gaming",
+    "region": "China"
+  },
+  {
+    "short_name": "TT.Y",
+    "full_name": "ThunderTalk Gaming Young",
+    "region": "China"
+  },
+  {
+    "short_name": "TES",
+    "full_name": "Top Esports",
+    "region": "China"
+  },
+  {
+    "short_name": "TES.C",
+    "full_name": "Top Esports Challenger",
+    "region": "China"
+  },
+  {
+    "short_name": "UP",
+    "full_name": "Ultra Prime",
+    "region": "China"
+  },
+  {
+    "short_name": "WBG",
+    "full_name": "Weibo Gaming",
+    "region": "China"
+  },
+  {
+    "short_name": "WBG.Y",
+    "full_name": "Weibo Gaming Youth Team",
+    "region": "China"
+  },
+  {
+    "short_name": "Z10",
+    "full_name": "Zero Tenacity",
+    "region": "EMEA"
+  }
+]
