@@ -11,6 +11,32 @@ site = EsportsClient("lol")
 vocab_dir = Path("../../resources/vocab")
 vocab_dir.mkdir(exist_ok=True)
 
+def get_image_url(site: EsportsClient, filename: str, width: int | None = None) -> str:
+    """
+    Given a filename from the Cargo table (ex: 'GenGlogo square.png'),
+    return the full URL to the image on Fandom.
+    """
+    if not filename:
+        return None
+
+    response = site.client.api(
+        action="query",
+        format="json",
+        titles=f"File:{filename}",
+        prop="imageinfo",
+        iiprop="url",
+        iiurlwidth=width,
+    )
+
+    image_info = next(iter(response["query"]["pages"].values())).get("imageinfo", [])
+    if not image_info:
+        print(f"[WARN] No image found for {filename}")
+        return None
+
+    if width:
+        return image_info[0]["thumburl"]
+    return image_info[0]["url"]
+
 # -----------------------------
 # Gather top X teams
 # -----------------------------
@@ -36,7 +62,7 @@ vocab_dir.mkdir(exist_ok=True)
 top_X_teams = site.cargo_client.query(
     tables="TournamentResults=TR, Teams=T",
     join_on="TR.Team=T.Name",
-    fields="TR.Team, T.Region, T.Short, TR.Tier",
+    fields="TR.Team, T.Region, T.Short, TR.Tier, T.Image",
     where="TR.Place_Number <= '10' "
           "AND TR.Tier = 'Offline' "
           "AND TR.Date >= '2025-08-01' "
@@ -45,14 +71,16 @@ top_X_teams = site.cargo_client.query(
           "AND T.Region IS NOT NULL",
     group_by="TR.Team"
 )
-teams_json = [
-    {
-        "short_name": row["Short"],   # ex: "Gen.G"
-        "full_name": row["Team"],    # ex: "Gen.G Esports"
-        "region": row["Region"]      # ex: "KR"
-    }
-    for row in top_X_teams
-]
+
+teams_json = []
+for row in top_X_teams:
+    image_url = get_image_url(site, row["Image"])  # transforme filename en URL
+    teams_json.append({
+        "short_name": row["Short"],    # ex: "Gen.G"
+        "full_name": row["Team"],      # ex: "Gen.G Esports"
+        "region": row["Region"],       # ex: "KR"
+        "image": image_url             # ex: "https://static.wikia.nocookie.net/lolesports_gamepedia_en/..."
+    })
 
 # Sauvegarder dans un fichier JSON
 output_file = Path("../../resources/data/top_teams_offline_2025-06-01.json")

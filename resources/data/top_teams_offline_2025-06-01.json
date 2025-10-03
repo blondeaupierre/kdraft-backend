@@ -2,216 +2,259 @@
   {
     "short_name": "AL",
     "full_name": "Anyone's Legend",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/74/Anyone%27s_Legendlogo_profile.png/revision/latest?cb=20220111185308"
   },
   {
     "short_name": "AL.Y",
     "full_name": "Anyone's Legend.Young",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/ef/Anyone%27s_Legend.Younglogo_profile.png/revision/latest?cb=20211216222854"
   },
   {
     "short_name": "UCH.F",
     "full_name": "Azules Esports Fem",
-    "region": "Americas"
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/a/a8/Azules_Esportslogo_square.png/revision/latest?cb=20200406173147"
   },
   {
     "short_name": "BAR",
     "full_name": "Barça eSports",
-    "region": "EMEA"
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/6/68/Bar%C3%A7a_eSportslogo_square.png/revision/latest?cb=20221118223547"
   },
   {
     "short_name": "BCE",
     "full_name": "Barcząca Esports",
-    "region": "EMEA"
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/d/dd/Barcz%C4%85ca_Esportslogo_square.png/revision/latest?cb=20250717170702"
   },
   {
     "short_name": "BLG",
     "full_name": "Bilibili Gaming",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/f/fb/Bilibili_Gaminglogo_profile.png/revision/latest?cb=20230503003727"
   },
   {
     "short_name": "BLG.J",
     "full_name": "Bilibili Gaming Junior",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/a/a7/Bilibili_Gaming_Juniorlogo_square.png/revision/latest?cb=20230503090003"
   },
   {
     "short_name": "DCG",
     "full_name": "Deep Cross Gaming",
-    "region": "Asia Pacific"
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/4/4c/Deep_Cross_Gaminglogo_square.png/revision/latest?cb=20220129145320"
   },
   {
     "short_name": "EDG",
     "full_name": "EDward Gaming",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/5/56/EDward_Gaminglogo_square.png/revision/latest?cb=20211024133123"
   },
   {
     "short_name": "VIP",
     "full_name": "Eesti Rästikud",
-    "region": "EMEA"
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/1/18/Eesti_R%C3%A4stikudlogo_square.png/revision/latest?cb=20230917005547"
   },
   {
     "short_name": "FNC",
     "full_name": "Fnatic",
-    "region": "EMEA"
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/f/fc/Fnaticlogo_square.png/revision/latest?cb=20210319200026"
   },
   {
     "short_name": "FPX",
     "full_name": "FunPlus Phoenix",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/b1/FunPlus_Phoenixlogo_square.png/revision/latest?cb=20230426040632"
   },
   {
     "short_name": "FPB",
     "full_name": "FunPlus Phoenix Blaze",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/6/69/FunPlus_Phoenix_Blazelogo_square.png/revision/latest?cb=20210107124629"
   },
   {
     "short_name": "G2",
     "full_name": "G2 Esports",
-    "region": "EMEA"
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/b4/G2_Esportslogo_profile.png/revision/latest?cb=20230426141650"
   },
   {
     "short_name": "GX",
     "full_name": "GIANTX",
-    "region": "EMEA"
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/93/GIANTXlogo_profile.png/revision/latest?cb=20231214160221"
   },
   {
     "short_name": "iG",
     "full_name": "Invictus Gaming",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/7f/Invictus_Gaminglogo_profile.png/revision/latest?cb=20220121030005"
   },
   {
     "short_name": "JDG",
     "full_name": "JD Gaming",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/9f/JD_Gaminglogo_profile.png/revision/latest?cb=20230512092824"
   },
   {
     "short_name": "KC",
     "full_name": "Karmine Corp",
-    "region": "EMEA"
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2d/Karmine_Corplogo_square.png/revision/latest?cb=20240319113928"
   },
   {
     "short_name": "LGD",
     "full_name": "LGD Gaming",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/5/55/LGD_Gaminglogo_square.png/revision/latest?cb=20220129015052"
   },
   {
     "short_name": "LGD.Y",
     "full_name": "LGD Gaming Young Team",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/9c/LGD_Gaming_Young_Teamlogo_square.png/revision/latest?cb=20210325061047"
   },
   {
     "short_name": "LNG.A",
     "full_name": "LNG Academy",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/a/a2/LNG_Academylogo_square.png/revision/latest?cb=20190609164635"
   },
   {
     "short_name": "LNG",
     "full_name": "LNG Esports",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/d/d5/LNG_Esportslogo_square.png/revision/latest?cb=20230426041003"
   },
   {
     "short_name": "HRTS",
     "full_name": "Los Heretics",
-    "region": "EMEA"
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/bf/Team_Hereticslogo_square.png/revision/latest?cb=20221027072323"
   },
   {
     "short_name": "MKOI",
     "full_name": "Movistar KOI",
-    "region": "EMEA"
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/bd/Movistar_KOIlogo_square.png/revision/latest?cb=20240528162718"
   },
   {
     "short_name": "NAVI",
     "full_name": "Natus Vincere",
-    "region": "EMEA"
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/ef/Natus_Vincerelogo_square.png/revision/latest?cb=20250519222608"
   },
   {
     "short_name": "OMG",
     "full_name": "Oh My God",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/0d/Oh_My_Godlogo_square.png/revision/latest?cb=20221227034426"
   },
   {
     "short_name": "OMG.A",
     "full_name": "Oh My God Academy",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/21/Oh_My_God_Academylogo_square.png/revision/latest?cb=20240128115832"
   },
   {
     "short_name": "PTX",
     "full_name": "Pertinax Esports",
-    "region": "EMEA"
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/a/a2/Pertinax_Esportslogo_square.png/revision/latest?cb=20220210164020"
   },
   {
     "short_name": "SK",
     "full_name": "SK Gaming",
-    "region": "EMEA"
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2f/SK_Gaminglogo_profile.png/revision/latest?cb=20221120001426"
   },
   {
     "short_name": "FMS",
     "full_name": "StormMedia Fajnie Mieć Skład",
-    "region": "EMEA"
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/71/Fajnie_Mie%C4%87_Sk%C5%82adlogo_square.png/revision/latest?cb=20250408135402"
   },
   {
     "short_name": "BDS",
     "full_name": "Team BDS",
-    "region": "EMEA"
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/06/Team_BDSlogo_profile.png/revision/latest?cb=20220111204832"
   },
   {
     "short_name": "TH",
     "full_name": "Team Heretics",
-    "region": "EMEA"
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/bf/Team_Hereticslogo_square.png/revision/latest?cb=20221027072323"
   },
   {
     "short_name": "VIT",
     "full_name": "Team Vitality",
-    "region": "EMEA"
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/86/Team_Vitalitylogo_square.png/revision/latest?cb=20230224142251"
   },
   {
     "short_name": "WE",
     "full_name": "Team WE",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/04/Team_WElogo_profile.png/revision/latest?cb=20210318224640"
   },
   {
     "short_name": "WE.A",
     "full_name": "Team WE Academy",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/a/a6/Team_WE_Academylogo_square.png/revision/latest?cb=20190220205705"
   },
   {
     "short_name": "TT",
     "full_name": "ThunderTalk Gaming",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/22/ThunderTalk_Gaminglogo_square.png/revision/latest?cb=20210306231456"
   },
   {
     "short_name": "TT.Y",
     "full_name": "ThunderTalk Gaming Young",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/5/5b/ThunderTalk_Gaming_Younglogo_square.png/revision/latest?cb=20220210015252"
   },
   {
     "short_name": "TES",
     "full_name": "Top Esports",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/3/35/Top_Esportslogo_profile.png/revision/latest?cb=20210318223317"
   },
   {
     "short_name": "TES.C",
     "full_name": "Top Esports Challenger",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/97/Top_Esports_Challengerlogo_square.png/revision/latest?cb=20210318232640"
   },
   {
     "short_name": "UP",
     "full_name": "Ultra Prime",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/e8/Ultra_Primelogo_profile.png/revision/latest?cb=20210526084713"
   },
   {
     "short_name": "WBG",
     "full_name": "Weibo Gaming",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/87/Weibo_Gaminglogo_profile.png/revision/latest?cb=20221110083550"
   },
   {
     "short_name": "WBG.Y",
     "full_name": "Weibo Gaming Youth Team",
-    "region": "China"
+    "region": "China",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/99/Weibo_Gaming_Youth_Teamlogo_profile.png/revision/latest?cb=20221110090423"
   },
   {
     "short_name": "Z10",
     "full_name": "Zero Tenacity",
-    "region": "EMEA"
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/bb/Zero_Tenacitylogo_square.png/revision/latest?cb=20250811172814"
   }
 ]
