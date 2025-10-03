@@ -1,2 +1,2 @@
 # KDrafting
-test
+fastapi run backend/main.py
