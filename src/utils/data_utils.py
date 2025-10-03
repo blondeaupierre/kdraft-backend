@@ -18,11 +18,8 @@ def load_partial_sequence(sequence_path: str) -> str:
     try:
         with open(sequence_path, "r", encoding="utf-8") as f:
             line = [line.strip() for line in f if line.strip()]
-
-        if not line:
-            return "<BOS>"
-
         flattened = "".join(line)
+
         return flattened
     except FileNotFoundError:
         raise FileNotFoundError(f"Partial sequence file not found at {sequence_path}")
