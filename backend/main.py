@@ -1,4 +1,3 @@
-import yaml
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -6,16 +5,12 @@ from pydantic import BaseModel
 from src.generator import DraftModelGenerator
 from src.utils.team_perplexity import build_draft_sequence
 
-# Charger config
-with open("config/generator_config.yaml", "r") as f:
-    config = yaml.safe_load(f)
-
 generator = DraftModelGenerator(
-    model_path=config["model_path"],
-    tokenizer_path=config["tokenizer_path"],
-    champions_path=config["champions_path"],
-    draft_tokens_path=config["draft_tokens_path"],
-    draft_max_length=config["draft_max_length"]
+    model_path="resources/trained_models/FT_top_teams_offline_2025-06-01_gpt2_lol_100k",
+    tokenizer_path="resources/tokenizer",
+    champions_path="resources/vocab/champions.txt",
+    draft_tokens_path="resources/vocab/draft_tokens.txt",
+    draft_max_length=50
 )
 
 app = FastAPI()
@@ -48,11 +43,13 @@ def generate(input: Input):
         as_team=input.AS_TEAM,
         vs_team=input.VS_TEAM,
         side=input.SIDE,
-        patch=input.PATCH, draft_sequence=input.draft_sequence,
-        team_vocab_path=config["team_vocab_path"]
+        patch=input.PATCH,
+        draft_sequence=input.draft_sequence,
+        top_teams_json_path="resources/data/top_teams_offline_2025-06-01.json"
     )
 
     outputs = generator.generate_sequence(partial_sequence=full_sequence)
-    result_topk = generator.compute_topk(outputs, config["top_k"])
+    result_topk = generator.compute_topk(outputs, 3)
+    print(result_topk)
 
     return result_topk
