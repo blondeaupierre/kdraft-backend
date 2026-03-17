@@ -1,17 +1,13 @@
-import yaml
 from src.trainer import DraftModelTrainer
 
-with open("config/train_config.yaml", "r") as f:
-    config = yaml.safe_load(f)
-
 trainer = DraftModelTrainer(
-    train_output_dir=config["train_output_dir"],
-    tokenizer_path=config["tokenizer_path"],
-    train_dataset_path=config["train_dataset_path"],
-    val_dataset_path=config["val_dataset_path"],
-    max_length=config["max_length"],
-    batch_size=config["batch_size"],
-    num_epochs=config["num_epochs"],
+    train_output_dir="resources/trained_models/drafts_context_tokens_model",
+    tokenizer_path="resources/tokenizer",
+    train_dataset_path="resources/datasets/train_all_drafts.csv",
+    val_dataset_path="resources/datasets/val_all_drafts.csv",
+    max_length=50,
+    batch_size=64,
+    num_epochs=150,
     log_level="INFO"
 )
 

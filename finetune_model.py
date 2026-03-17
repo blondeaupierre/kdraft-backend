@@ -2,18 +2,14 @@ import yaml
 
 from src.finetuner import DraftModelFinetuner
 
-with open("config/config_finetune.yaml", "r") as f:
-    config = yaml.safe_load(f)
-
 finetuner = DraftModelFinetuner(
-    model_path="resources/trained_models/60000_drafts_models",
-    model_output_dir="resources/trained_models/model_from_25_16",
-    tokenizer_path=config["tokenizer_path"],
-    train_dataset_path=config["train_dataset_path"],
-    val_dataset_path=config["val_dataset_path"],
-    max_length=config["max_length"],
-    batch_size=config["batch_size"],
-    num_epochs=config["num_epochs"],
+    model_output_dir="resources/trained_models/NFT_2025-06-01_gpt2_lol_100k",
+    tokenizer_path="resources/tokenizer",
+    tokenized_train_dataset_path="resources/datasets/tokenized/tokenized_train",
+    tokenized_val_dataset_path="resources/datasets/tokenized/tokenized_val",
+    max_length=50,
+    batch_size=8,
+    num_epochs=5,
     log_level="INFO"
 )
 
