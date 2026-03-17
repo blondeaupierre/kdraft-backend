@@ -52,7 +52,7 @@ class DraftModelTrainer:
             self._encode,
             remove_columns=["sequence"],
             desc="Encoding training dataset",
-            batched = True
+            batched=True
         )
         val_dataset = Dataset.from_pandas(val_df).map(
             self._encode,
@@ -67,13 +67,32 @@ class DraftModelTrainer:
         return train_dataset, val_dataset
 
     def _encode(self, examples):
-        return self.tokenizer(
+        tokenized = self.tokenizer(
             [seq.split(',') for seq in examples["sequence"]],
             is_split_into_words=True,
             truncation=True,
             padding="max_length",
             max_length=self.max_length,
         )
+
+        bos_token_id = self.tokenizer.convert_tokens_to_ids("<BOS>")
+        all_labels = []
+
+        for ids in tokenized["input_ids"]:
+            labels = []
+            mask_mode = True  # mask until we reach <BOS>
+
+            for tid in ids:
+                if tid == bos_token_id:
+                    mask_mode = False  # stop masking once we hit <BOS>
+                if mask_mode:
+                    labels.append(-100)
+                else:
+                    labels.append(tid)
+            all_labels.append(labels)
+
+        tokenized["labels"] = all_labels
+        return tokenized
 
     def _build_model(self):
         # Load model and tokenizer
@@ -89,6 +108,21 @@ class DraftModelTrainer:
         self.logger.info(f"Model moved to {self.device}")
         return model
 
+    def compute_metrics(self, eval_pred):
+        logits, labels = eval_pred
+        logits = torch.tensor(logits)
+        labels = torch.tensor(labels)
+
+        # ignore masked tokens and pre-BOS
+        mask = (labels != -100)
+        logits = logits[mask]
+        labels = labels[mask]
+
+        top3 = torch.topk(logits, k=3, dim=-1).indices # (batch*seq_len, k)
+        acc = (top3 == labels.unsqueeze(-1)).any(dim=-1).float().mean() # 1 if label in top-k
+
+        return {"top_3_accuracy": acc.item()}
+
     def _build_trainer(self):
         self.data_collator = DataCollatorForLanguageModeling(tokenizer=self.tokenizer, mlm=False)
 
@@ -98,17 +132,22 @@ class DraftModelTrainer:
                 output_dir=self.train_output_dir,
                 num_train_epochs=self.num_epochs,
                 learning_rate=1e-4,
+                warmup_steps=500,
+                lr_scheduler_type = 'cosine',
                 per_device_train_batch_size=self.batch_size,
                 per_device_eval_batch_size=self.batch_size,
-                eval_strategy="epoch",
-                save_strategy="epoch",
-                save_total_limit=3,
+                eval_strategy="epoch", # evaluate model on val at each epochs
+                save_strategy="epoch", # saves checkpoint at each epochs
+                save_total_limit=3, # limit to 3 checkpoints
                 load_best_model_at_end=True,  # required if using early stopping
                 metric_for_best_model="eval_loss",  # monitor validation loss
+                # metric_for_best_model="top_3_accuracy",
+                # greater_is_better = True, # we compute an accuracy instead of a loss
             ),
             train_dataset=self.train_dataset,
             eval_dataset=self.val_dataset,
             data_collator=self.data_collator,
+            # compute_metrics=self.compute_metrics,
             callbacks=[EarlyStoppingCallback(early_stopping_patience=5)]
         )
 
