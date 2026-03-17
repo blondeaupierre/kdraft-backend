@@ -4,13 +4,13 @@ from pathlib import Path
 
 from tokenizers import Tokenizer
 from tokenizers.models import WordLevel
-from transformers import PreTrainedTokenizerFast
+from transformers import PreTrainedTokenizerFast, GPT2TokenizerFast
 
 from src.utils.data_utils import load_txt, load_draft_tokens
 
 
 class DraftTokenizerBuilder:
-    """A class to build and save a WordLevel tokenizer for draft sequences."""
+    """A class to build and save a tokenizer for draft sequences based on GPT-2 small."""
 
     def __init__(
             self,
@@ -36,28 +36,28 @@ class DraftTokenizerBuilder:
         self.sides = ["BLUE", "RED"]
 
     def build_tokenizer(self) -> PreTrainedTokenizerFast:
-        # Gather all tokens
-        all_tokens = self.special_tokens + self.meta_tokens + self.draft_tokens + self.champions + self.teams + self.patches + self.sides
-        self.logger.debug(f"Vocabulary: {all_tokens}")
+        # Charger le tokenizer GPT-2 small
+        base_tokenizer = GPT2TokenizerFast.from_pretrained("gpt2", add_prefix_space=True)
+        self.logger.info(f"Base tokenizer contains {len(base_tokenizer)} tokens")
+        # Construire le tokenizer personnalisé
+        all_tokens = self.special_tokens + self.meta_tokens + self.draft_tokens + \
+                     self.champions + self.teams + self.patches + self.sides
 
-        # Map tokens → ids
-        vocab = {tok: i for i, tok in enumerate(all_tokens)}
-        self.logger.debug(f"Vocabulary: {vocab}")
+        # Identifier les tokens qui ne sont pas déjà dans GPT-2
+        new_tokens = [tok for tok in all_tokens if tok not in base_tokenizer.get_vocab()]
+        self.logger.info(f"Ajout de {len(new_tokens)} nouveaux tokens au vocabulaire GPT-2.")
 
-        # Build a WordLevel tokenizer
-        base_tokenizer = Tokenizer(WordLevel(vocab=vocab, unk_token="<UNK>"))
+        # Ajouter les nouveaux tokens au tokenizer GPT-2
+        base_tokenizer.add_tokens(new_tokens)
 
-        # Wrap it for Hugging Face
-        tokenizer = PreTrainedTokenizerFast(
-            tokenizer_object=base_tokenizer,
-            unk_token="<UNK>",
-            pad_token="<PAD>",
-            bos_token="<BOS>",
-            eos_token="<EOS>",
-        )
+        # Définir les tokens spéciaux
+        base_tokenizer.bos_token = "<BOS>"
+        base_tokenizer.eos_token = "<EOS>"
+        base_tokenizer.pad_token = "<PAD>"
+        base_tokenizer.unk_token = "<UNK>"
 
-        self.logger.info(f"Tokenizer created with vocab size: {tokenizer.vocab_size}")
-        return tokenizer
+        self.logger.info(f"Tokenizer final vocab size: {len(base_tokenizer)}")
+        return base_tokenizer
 
     def save_tokenizer(self):
         """Build and save the tokenizer to save_dir."""

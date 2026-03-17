@@ -4,7 +4,7 @@ import torch
 import torch.nn.functional as F
 from transformers import PreTrainedTokenizerFast, GPT2LMHeadModel, LogitsProcessorList
 
-from src.utils.data_utils import load_partial_sequence, load_txt
+from src.utils.data_utils import load_txt
 from src.utils.logits_processors import StrictForceTagsProcessor, NoDuplicateChampionsProcessor
 
 
@@ -70,11 +70,14 @@ class DraftModelGenerator:
             outputs = self.model.generate(
                 **inputs,
                 max_length=self.draft_max_length,
-                do_sample=False,
                 return_dict_in_generate=True,
                 output_scores=True,
-                repetition_penalty=2.0,
-                logits_processor=logits_processor
+                logits_processor=logits_processor,
+                do_sample=False,
+                temperature=0.8,
+                top_p=0.9,
+                top_k=50,
+                repetition_penalty=1.2
             )
 
         return outputs

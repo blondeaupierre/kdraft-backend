@@ -59,14 +59,29 @@ def get_image_url(site: EsportsClient, filename: str, width: int | None = None) 
 
 
 
+# top_X_teams = site.cargo_client.query(
+#     tables="TournamentResults=TR, Teams=T",
+#     join_on="TR.Team=T.Name",
+#     fields="TR.Team, T.Region, T.Short, TR.Tier, T.Image",
+#     where="TR.Place_Number <= '10' "
+#           "AND TR.Tier = 'Offline' "
+#           "AND TR.Date >= '2025-05-01' "
+#           "AND TR.Team IS NOT NULL "
+#           "AND T.Name IS NOT NULL "
+#           "AND T.Region IS NOT NULL",
+#     group_by="TR.Team"
+# )
+
+
 top_X_teams = site.cargo_client.query(
     tables="TournamentResults=TR, Teams=T",
     join_on="TR.Team=T.Name",
     fields="TR.Team, T.Region, T.Short, TR.Tier, T.Image",
     where="TR.Place_Number <= '10' "
           "AND TR.Tier = 'Offline' "
-          "AND TR.Date >= '2025-08-01' "
+          "AND TR.Date >= '2025-01-01' "
           "AND TR.Team IS NOT NULL "
+          "AND TR.Prize IS NOT NULL "
           "AND T.Name IS NOT NULL "
           "AND T.Region IS NOT NULL",
     group_by="TR.Team"
@@ -88,12 +103,3 @@ with output_file.open("w", encoding="utf-8") as f:
     json.dump(teams_json, f, indent=2, ensure_ascii=False)
 
 print(f"{len(teams_json)} teams saved to {output_file}")
-
-# # Créer la liste de dictionnaires
-# teams = sorted({row["Team"] for row in top_X_teams if row["Team"]})
-#
-# path = vocab_dir / "top_teams_Offline_2025-06-01.txt"
-# with (path).open("w", encoding="utf-8") as f:
-#     f.write("\n".join(teams))
-#
-# print(f"{len(teams)} teams saved to {path}")

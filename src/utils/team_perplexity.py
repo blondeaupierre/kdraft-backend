@@ -21,12 +21,10 @@ def normalize_team_name(input_name: str, teams_json: list[str]) -> str:
     if match_short:
         for team in teams_json:
             if team["short_name"] == match_short[0]:
-                print("match found :", match_short[0])
                 return team["full_name"]
 
     match_full = difflib.get_close_matches(input_name, full_names, n=1, cutoff=0.6)
     if match_full:
-        print("match found :", match_full[0])
         return match_full[0]
 
     print(f"[WARN] No match found for '{input_name}'")
@@ -44,7 +42,7 @@ def build_draft_sequence(as_team: str, vs_team: str, side: str, patch: str, draf
     vs_team = normalize_team_name(vs_team, teams_json)
 
     sequence = f"[AS_TEAM],{as_team},[VS_TEAM],{vs_team},[SIDE],{side},[PATCH],{patch},{draft_sequence}"
-
+    print(sequence)
     return sequence
 
-build_draft_sequence("fnatic","CFO","cc","cc","cc","../../resources/data/top_teams_offline_2025-06-01.json")
+# build_draft_sequence("fnatic","CFO","cc","cc","cc","../../resources/data/top_teams_offline_2025-06-01.json")

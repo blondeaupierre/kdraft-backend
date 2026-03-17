@@ -1,21 +1,63 @@
 [
   {
+    "short_name": "100T",
+    "full_name": "100 Thieves",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/94/100_Thieveslogo_profile.png/revision/latest?cb=20210621230835"
+  },
+  {
+    "short_name": "AOMA",
+    "full_name": "A One Man Army",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/6/6f/A_One_Man_Armylogo_square.png/revision/latest?cb=20230130144153"
+  },
+  {
+    "short_name": "AF",
+    "full_name": "Aegis Flames e-Sports",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/6/6c/Aegis_Flames_e-Sportslogo_square.png/revision/latest?cb=20250514200134"
+  },
+  {
+    "short_name": "A7",
+    "full_name": "Alpha7 Esports",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/b2/Alpha7_Esportslogo_square.png/revision/latest?cb=20250624023337"
+  },
+  {
     "short_name": "AL",
     "full_name": "Anyone's Legend",
     "region": "China",
     "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/74/Anyone%27s_Legendlogo_profile.png/revision/latest?cb=20220111185308"
   },
   {
-    "short_name": "AL.Y",
-    "full_name": "Anyone's Legend.Young",
-    "region": "China",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/ef/Anyone%27s_Legend.Younglogo_profile.png/revision/latest?cb=20211216222854"
+    "short_name": "APE",
+    "full_name": "Apex Predator",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/a/a0/Apex_Predatorlogo_square.png/revision/latest?cb=20250411064456"
+  },
+  {
+    "short_name": "AFW",
+    "full_name": "Austrian Force willhaben",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/d/d8/Austrian_Force_willhabenlogo_profile.png/revision/latest?cb=20230103165734"
   },
   {
     "short_name": "UCH.F",
     "full_name": "Azules Esports Fem",
     "region": "Americas",
     "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/a/a8/Azules_Esportslogo_square.png/revision/latest?cb=20200406173147"
+  },
+  {
+    "short_name": "B2U",
+    "full_name": "B2U",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/c/ce/B2Ulogo_square.png/revision/latest?cb=20230820084532"
+  },
+  {
+    "short_name": "B2TG",
+    "full_name": "Back2TheGame",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/5/51/Back2TheGamelogo_profile.png/revision/latest?cb=20250413221729"
   },
   {
     "short_name": "BAR",
@@ -30,16 +72,166 @@
     "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/d/dd/Barcz%C4%85ca_Esportslogo_square.png/revision/latest?cb=20250717170702"
   },
   {
+    "short_name": "BIG",
+    "full_name": "Berlin International Gaming",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/6/62/Berlin_International_Gaminglogo_square.png/revision/latest?cb=20200718200002"
+  },
+  {
+    "short_name": "B57",
+    "full_name": "Big Dragon57",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/c/c2/Big_Dragon57logo_square.png/revision/latest?cb=20250515115301"
+  },
+  {
     "short_name": "BLG",
     "full_name": "Bilibili Gaming",
     "region": "China",
     "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/f/fb/Bilibili_Gaminglogo_profile.png/revision/latest?cb=20230503003727"
   },
   {
-    "short_name": "BLG.J",
-    "full_name": "Bilibili Gaming Junior",
-    "region": "China",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/a/a7/Bilibili_Gaming_Juniorlogo_square.png/revision/latest?cb=20230503090003"
+    "short_name": "BFG",
+    "full_name": "Bitfix Gaming",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/4/47/Bitfix_Gaminglogo_square.png/revision/latest?cb=20210830082249"
+  },
+  {
+    "short_name": "BKR",
+    "full_name": "BK ROG Esports",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/3/3a/BK_ROG_Esportslogo_square.png/revision/latest?cb=20230117172527"
+  },
+  {
+    "short_name": "BLUE",
+    "full_name": "Blue Otter",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/99/Blue_Otterlogo_square.png/revision/latest?cb=20230707155619"
+  },
+  {
+    "short_name": "BFX.A",
+    "full_name": "BNK FEARX Academy",
+    "region": "Korea",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/0f/BNK_FEARXlogo_profile.png/revision/latest?cb=20241225073827"
+  },
+  {
+    "short_name": "BFX.Y",
+    "full_name": "BNK FEARX Youth",
+    "region": "Korea",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/0f/BNK_FEARXlogo_profile.png/revision/latest?cb=20241225073827"
+  },
+  {
+    "short_name": "BDN",
+    "full_name": "Bodin E-Sports",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/5/5e/Bodin_E-Sportslogo_square.png/revision/latest?cb=20250211001602"
+  },
+  {
+    "short_name": "BBA",
+    "full_name": "BOOBA",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/f/f0/BOOBAlogo_square.png/revision/latest?cb=20221211154208"
+  },
+  {
+    "short_name": "BGT",
+    "full_name": "BoostGate Esports",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/90/BoostGate_Esportslogo_square.png/revision/latest?cb=20250707005708"
+  },
+  {
+    "short_name": "BCT",
+    "full_name": "Burning Core Toyama",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/d/da/Burning_Core_Toyamalogo_profile.png/revision/latest?cb=20240114101728"
+  },
+  {
+    "short_name": "CLA",
+    "full_name": "Caldya Esport",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/3/36/Caldya_Esportlogo_square.png/revision/latest?cb=20250605114422"
+  },
+  {
+    "short_name": "CCG",
+    "full_name": "CCG Esports",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/c/cc/CCG_Esportslogo_square.png/revision/latest?cb=20231219183512"
+  },
+  {
+    "short_name": "CHF",
+    "full_name": "Chiefs Esports Club",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/f/f7/Chiefs_Esports_Clublogo_square.png/revision/latest?cb=20250223132237"
+  },
+  {
+    "short_name": "CKZ",
+    "full_name": "CITA Kaizen",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/ec/CITA_Kaizenlogo_square.png/revision/latest?cb=20250129195758"
+  },
+  {
+    "short_name": "CTG",
+    "full_name": "Citadel Gaming",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/e3/Citadel_Gaminglogo_square.png/revision/latest?cb=20250629003923"
+  },
+  {
+    "short_name": "C9",
+    "full_name": "Cloud9",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/5/5f/Cloud9logo_profile.png/revision/latest?cb=20230426052147"
+  },
+  {
+    "short_name": "CNG",
+    "full_name": "CNG Royal",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/e1/CNG_Royallogo_square.png/revision/latest?cb=20250223075533"
+  },
+  {
+    "short_name": "CK",
+    "full_name": "Comeback Kid",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/d/d3/Comeback_Kidlogo_square.png/revision/latest?cb=20250515132641"
+  },
+  {
+    "short_name": "CNV",
+    "full_name": "Conviction",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/7b/Convictionlogo_square.png/revision/latest?cb=20210423150320"
+  },
+  {
+    "short_name": "SCCP",
+    "full_name": "Corinthians Esports",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/70/Corinthians_Esportslogo_square.png/revision/latest?cb=20250313132107"
+  },
+  {
+    "short_name": "CRZ",
+    "full_name": "Crusaders",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/83/Crusaderslogo_square.png/revision/latest?cb=20250203151212"
+  },
+  {
+    "short_name": "CFO",
+    "full_name": "CTBC Flying Oyster",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/bb/CTBC_Flying_Oysterlogo_square.png/revision/latest?cb=20221014011338"
+  },
+  {
+    "short_name": "CPC",
+    "full_name": "Curralzinho Esports",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/ef/Curralzinho_Esportslogo_square.png/revision/latest?cb=20250207215317"
+  },
+  {
+    "short_name": "D1",
+    "full_name": "D1VERSE",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/ef/D1VERSElogo_profile.png/revision/latest?cb=20250804124136"
+  },
+  {
+    "short_name": "DZ",
+    "full_name": "DarkZero Dragonsteel",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/0c/DarkZero_Dragonsteellogo_profile.png/revision/latest?cb=20250319183229"
   },
   {
     "short_name": "DCG",
@@ -48,10 +240,58 @@
     "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/4/4c/Deep_Cross_Gaminglogo_square.png/revision/latest?cb=20220129145320"
   },
   {
-    "short_name": "EDG",
-    "full_name": "EDward Gaming",
-    "region": "China",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/5/56/EDward_Gaminglogo_square.png/revision/latest?cb=20211024133123"
+    "short_name": "DFM",
+    "full_name": "DetonatioN FocusMe",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/3/30/DetonatioN_FocusMelogo_profile.png/revision/latest?cb=20230505045035"
+  },
+  {
+    "short_name": "DV1A",
+    "full_name": "devils.one Academy",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/d/dd/Devils.onelogo_square.png/revision/latest?cb=20220104204720"
+  },
+  {
+    "short_name": "DKB",
+    "full_name": "DKB XPERION NXT",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/6/68/DKB_XPERION_NXTlogo_square.png/revision/latest?cb=20240320083125"
+  },
+  {
+    "short_name": "DOC",
+    "full_name": "DOCISK",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/c/cc/DOCISKlogo_square.png/revision/latest?cb=20240410214126"
+  },
+  {
+    "short_name": "DOCA",
+    "full_name": "DOCISK Academy",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/c/cc/DOCISKlogo_square.png/revision/latest?cb=20240410214126"
+  },
+  {
+    "short_name": "DOCH",
+    "full_name": "DOCISK Hussars",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/4/43/DOCISK_Hussarslogo_square.png/revision/latest?cb=20250719114426"
+  },
+  {
+    "short_name": "DOG",
+    "full_name": "Dorado Gaming",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/3/3d/Dorado_Gaminglogo_square.png/revision/latest?cb=20250621000302"
+  },
+  {
+    "short_name": "DRX.C",
+    "full_name": "DRX Challengers",
+    "region": "Korea",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/81/DRXlogo_profile.png/revision/latest?cb=20230512094145"
+  },
+  {
+    "short_name": "ECG",
+    "full_name": "e-Champ Gaming",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/83/E-Champ_Gaminglogo_square.png/revision/latest?cb=20170801201847"
   },
   {
     "short_name": "VIP",
@@ -60,22 +300,148 @@
     "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/1/18/Eesti_R%C3%A4stikudlogo_square.png/revision/latest?cb=20230917005547"
   },
   {
+    "short_name": "EGK",
+    "full_name": "eGekko",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/1/1c/EGekkologo_square.png/revision/latest?cb=20240927133348"
+  },
+  {
+    "short_name": "SGE",
+    "full_name": "Eintracht Frankfurt",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/3/38/Eintracht_Frankfurtlogo_square.png/revision/latest?cb=20210818183713"
+  },
+  {
+    "short_name": "EINS",
+    "full_name": "Eintracht Spandau",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/f/f6/Eintracht_Spandaulogo_square.png/revision/latest?cb=20211114183152"
+  },
+  {
+    "short_name": "EMP",
+    "full_name": "Emerald Prisoners",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/06/Emerald_Prisonerslogo_square.png/revision/latest?cb=20250413222229"
+  },
+  {
+    "short_name": "EIQ",
+    "full_name": "Entropiq",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/b4/Entropiqlogo_profile.png/revision/latest?cb=20211215220138"
+  },
+  {
+    "short_name": "EST",
+    "full_name": "Estral Esports",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/6/69/Estral_Esportslogo_profile.png/revision/latest?cb=20210620090910"
+  },
+  {
+    "short_name": "ESB",
+    "full_name": "eSuba",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/73/ESubalogo_profile.png/revision/latest?cb=20240603014254"
+  },
+  {
+    "short_name": "WOL",
+    "full_name": "eWolves Brazil",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/f/fc/E-Wolveslogo_square.png/revision/latest?cb=20240725175719"
+  },
+  {
+    "short_name": "WOL.L",
+    "full_name": "eWolves Lycans",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/83/EWolves_Lycanslogo_square.png/revision/latest?cb=20250211195350"
+  },
+  {
+    "short_name": "FE",
+    "full_name": "Fantastic Esports",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/28/Fantastic_Esportslogo_square.png/revision/latest?cb=20250215015905"
+  },
+  {
+    "short_name": "FVN",
+    "full_name": "Farenvehn",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/e7/Farenvehnlogo_square.png/revision/latest?cb=20250714204038"
+  },
+  {
+    "short_name": "FLH",
+    "full_name": "FlameHard",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/06/FlameHardlogo_square.png/revision/latest?cb=20240120000918"
+  },
+  {
+    "short_name": "FLA",
+    "full_name": "Flamengo MDL",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/e5/Flamengo_Esportslogo_profile.png/revision/latest?cb=20221028053903"
+  },
+  {
+    "short_name": "FLY",
+    "full_name": "FlyQuest",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/bc/FlyQuestlogo_profile.png/revision/latest?cb=20210817015925"
+  },
+  {
     "short_name": "FNC",
     "full_name": "Fnatic",
     "region": "EMEA",
     "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/f/fc/Fnaticlogo_square.png/revision/latest?cb=20210319200026"
   },
   {
-    "short_name": "FPX",
-    "full_name": "FunPlus Phoenix",
-    "region": "China",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/b1/FunPlus_Phoenixlogo_square.png/revision/latest?cb=20230426040632"
+    "short_name": "FOG",
+    "full_name": "Fog Esports",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/3/34/Fog_Esportslogo_square.png/revision/latest?cb=20240127151642"
   },
   {
-    "short_name": "FPB",
-    "full_name": "FunPlus Phoenix Blaze",
-    "region": "China",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/6/69/FunPlus_Phoenix_Blazelogo_square.png/revision/latest?cb=20210107124629"
+    "short_name": "FTW",
+    "full_name": "For The Win Esports",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/d/d2/For_The_Win_Esportslogo_square.png/revision/latest?cb=20210912081340"
+  },
+  {
+    "short_name": "F0X",
+    "full_name": "Fox Gaming",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/90/Fox_Gaminglogo_square.png/revision/latest?cb=20220129213047"
+  },
+  {
+    "short_name": "FRAC",
+    "full_name": "Fractious eSports",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/8e/Fractious_eSportslogo_profile.png/revision/latest?cb=20250126103159"
+  },
+  {
+    "short_name": "FUE",
+    "full_name": "Fuego",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/f/fa/Fuegologo_profile.png/revision/latest?cb=20230509125600"
+  },
+  {
+    "short_name": "SHG",
+    "full_name": "Fukuoka SoftBank HAWKS gaming",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/a/a3/Fukuoka_SoftBank_HAWKS_gaminglogo_profile.png/revision/latest?cb=20240601183154"
+  },
+  {
+    "short_name": "FS",
+    "full_name": "Full Sense",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/e2/Full_Senselogo_profile.png/revision/latest?cb=20240825073824"
+  },
+  {
+    "short_name": "FUR",
+    "full_name": "FURIA",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/6/67/FURIAlogo_profile.png/revision/latest?cb=20221110070209"
+  },
+  {
+    "short_name": "FUR.Y",
+    "full_name": "FURIA Youth",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/6/67/FURIAlogo_profile.png/revision/latest?cb=20221110070209"
   },
   {
     "short_name": "G2",
@@ -84,22 +450,154 @@
     "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/b4/G2_Esportslogo_profile.png/revision/latest?cb=20230426141650"
   },
   {
-    "short_name": "GX",
-    "full_name": "GIANTX",
+    "short_name": "G2H",
+    "full_name": "G2 Hel",
     "region": "EMEA",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/93/GIANTXlogo_profile.png/revision/latest?cb=20231214160221"
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/77/G2_Esportslogo_square.png/revision/latest?cb=20210810013355"
   },
   {
-    "short_name": "iG",
-    "full_name": "Invictus Gaming",
-    "region": "China",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/7f/Invictus_Gaminglogo_profile.png/revision/latest?cb=20220121030005"
+    "short_name": "GL",
+    "full_name": "Galions",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/6/61/Galionslogo_square.png/revision/latest?cb=20241209190639"
   },
   {
-    "short_name": "JDG",
-    "full_name": "JD Gaming",
-    "region": "China",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/9f/JD_Gaminglogo_profile.png/revision/latest?cb=20230512092824"
+    "short_name": "GAM",
+    "full_name": "GAM Esports",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/8a/GAM_Esportslogo_square.png/revision/latest?cb=20210808114459"
+  },
+  {
+    "short_name": "GSMC",
+    "full_name": "Gamespace Mediterranean College Esports",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/a/ae/Gamespace_Mediterranean_College_Esportslogo_square.png/revision/latest?cb=20200110004007"
+  },
+  {
+    "short_name": "GK",
+    "full_name": "Geekay Esports",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/f/f6/Geekay_Esportslogo_square.png/revision/latest?cb=20231116145944"
+  },
+  {
+    "short_name": "GEN",
+    "full_name": "Gen.G",
+    "region": "Korea",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/5/5b/Gen.Glogo_profile.png/revision/latest?cb=20210325073641"
+  },
+  {
+    "short_name": "GEN.SC",
+    "full_name": "Gen.G Scholars",
+    "region": "Korea",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/5/5b/Gen.Glogo_profile.png/revision/latest?cb=20210325073641"
+  },
+  {
+    "short_name": "ZEN",
+    "full_name": "Genetic Esport",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/b3/Genetic_Esportlogo_profile.png/revision/latest?cb=20250218012214"
+  },
+  {
+    "short_name": "M8",
+    "full_name": "Gentle Mates",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/5/59/Gentle_Mateslogo_square.png/revision/latest?cb=20241007071244"
+  },
+  {
+    "short_name": "GLR",
+    "full_name": "GLORE",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/09/GLORElogo_square.png/revision/latest?cb=20240415214226"
+  },
+  {
+    "short_name": "GNG",
+    "full_name": "GnG Amazigh",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/89/GnG_Amazighlogo_square.png/revision/latest?cb=20240209014814"
+  },
+  {
+    "short_name": "GLE",
+    "full_name": "Golden Lions",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/20/Golden_Lionslogo_square.png/revision/latest?cb=20250723045240"
+  },
+  {
+    "short_name": "GTZ",
+    "full_name": "GTZ Esports",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/00/GTZ_Esportslogo_profile.png/revision/latest?cb=20250104025950"
+  },
+  {
+    "short_name": "HRK",
+    "full_name": "Hanoi Rookies Esports",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/88/Hanoi_Rookies_Esportslogo_profile.png/revision/latest?cb=20250218141505"
+  },
+  {
+    "short_name": "HLE",
+    "full_name": "Hanwha Life Esports",
+    "region": "Korea",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/e9/Hanwha_Life_Esportslogo_profile.png/revision/latest?cb=20211024143610"
+  },
+  {
+    "short_name": "HLE.A",
+    "full_name": "Hanwha Life Esports Academy",
+    "region": "Korea",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/e9/Hanwha_Life_Esportslogo_profile.png/revision/latest?cb=20211024143610"
+  },
+  {
+    "short_name": "HWL",
+    "full_name": "Howl Esports",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/4/4c/Howl_Esportslogo_square.png/revision/latest?cb=20250201201644"
+  },
+  {
+    "short_name": "HNVR",
+    "full_name": "htp eSport Akademie Hannover",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/0f/Htp_eSport_Akademie_Hannoverlogo_square.png/revision/latest?cb=20241018082100"
+  },
+  {
+    "short_name": "HC",
+    "full_name": "HUTECH CHICKEN",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/8a/HUTECH_CHICKENlogo_square.png/revision/latest?cb=20250422073055"
+  },
+  {
+    "short_name": "HVE",
+    "full_name": "Hyper Vortex Esports",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/b8/Hyper_Vortex_Esportslogo_square.png/revision/latest?cb=20250218142101"
+  },
+  {
+    "short_name": "IJC",
+    "full_name": "Ici Japon Corp. Esport",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/7a/Ici_Japon_Corp._Esportlogo_square.png/revision/latest?cb=20241006054235"
+  },
+  {
+    "short_name": "IMPT",
+    "full_name": "IMProve Team",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2b/IMProve_Teamlogo_profile.png/revision/latest?cb=20240528125304"
+  },
+  {
+    "short_name": "INF",
+    "full_name": "INFINITY",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/1/16/INFINITYlogo_square.png/revision/latest?cb=20210922171950"
+  },
+  {
+    "short_name": "IE",
+    "full_name": "Isurus Estral",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/6/6c/Isurus_Estrallogo_square.png/revision/latest?cb=20250122022840"
+  },
+  {
+    "short_name": "KBM",
+    "full_name": "KaBuM! Ilha das Lendas",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/1/10/KaBuM%21_Ilha_das_Lendaslogo_square.png/revision/latest?cb=20250312174403"
   },
   {
     "short_name": "KC",
@@ -108,28 +606,82 @@
     "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2d/Karmine_Corplogo_square.png/revision/latest?cb=20240319113928"
   },
   {
-    "short_name": "LGD",
-    "full_name": "LGD Gaming",
-    "region": "China",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/5/55/LGD_Gaminglogo_square.png/revision/latest?cb=20220129015052"
+    "short_name": "KCB",
+    "full_name": "Karmine Corp Blue",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2d/Karmine_Corplogo_square.png/revision/latest?cb=20240319113928"
   },
   {
-    "short_name": "LGD.Y",
-    "full_name": "LGD Gaming Young Team",
-    "region": "China",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/9c/LGD_Gaming_Young_Teamlogo_square.png/revision/latest?cb=20210325061047"
+    "short_name": "KHK",
+    "full_name": "Kaufland Hangry Knights",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/4/4c/Kaufland_Hangry_Knightslogo_square.png/revision/latest?cb=20250122013351"
   },
   {
-    "short_name": "LNG.A",
-    "full_name": "LNG Academy",
-    "region": "China",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/a/a2/LNG_Academylogo_square.png/revision/latest?cb=20190609164635"
+    "short_name": "KMF",
+    "full_name": "Kiedyś Miałem Fun",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2f/Kiedy%C5%9B_Mia%C5%82em_Funlogo_square.png/revision/latest?cb=20240930165411"
   },
   {
-    "short_name": "LNG",
-    "full_name": "LNG Esports",
-    "region": "China",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/d/d5/LNG_Esportslogo_square.png/revision/latest?cb=20230426041003"
+    "short_name": "KT",
+    "full_name": "KT Rolster",
+    "region": "Korea",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/5/5c/KT_Rolsterlogo_profile.png/revision/latest?cb=20210605164657"
+  },
+  {
+    "short_name": "KT.A",
+    "full_name": "KT Rolster Academy",
+    "region": "Korea",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/5/5c/KT_Rolsterlogo_profile.png/revision/latest?cb=20210605164657"
+  },
+  {
+    "short_name": "KT.C",
+    "full_name": "KT Rolster Challengers",
+    "region": "Korea",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/5/5c/KT_Rolsterlogo_profile.png/revision/latest?cb=20210605164657"
+  },
+  {
+    "short_name": "LAZY",
+    "full_name": "Lazy In Life",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/1/11/Lazy_In_Lifelogo_square.png/revision/latest?cb=20220817165920"
+  },
+  {
+    "short_name": "LGE",
+    "full_name": "Lechuga Gaming",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/1/16/Lechuga_Gaminglogo_square.png/revision/latest?cb=20250518025357"
+  },
+  {
+    "short_name": "LLH",
+    "full_name": "Lenovo Legion Honvéd",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/74/Lenovo_Legion_Honv%C3%A9dlogo_square.png/revision/latest?cb=20250218145544"
+  },
+  {
+    "short_name": "LTS",
+    "full_name": "LittleSans",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/1/1e/LittleSanslogo_square.png/revision/latest?cb=20250208083417"
+  },
+  {
+    "short_name": "LOS",
+    "full_name": "Los Grandes",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/c/ce/Los_Grandeslogo_square.png/revision/latest?cb=20230608222207"
+  },
+  {
+    "short_name": "LOS.A",
+    "full_name": "Los Grandes Academy",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/c/ce/Los_Grandeslogo_square.png/revision/latest?cb=20230608222207"
+  },
+  {
+    "short_name": "LOS.T",
+    "full_name": "Los Grandes Trainee",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/c/ce/Los_Grandeslogo_square.png/revision/latest?cb=20230608222207"
   },
   {
     "short_name": "HRTS",
@@ -138,28 +690,172 @@
     "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/bf/Team_Hereticslogo_square.png/revision/latest?cb=20221027072323"
   },
   {
+    "short_name": "LR",
+    "full_name": "Los Ratones",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/f/fd/Los_Ratoneslogo_square.png/revision/latest?cb=20250122225821"
+  },
+  {
+    "short_name": "LG",
+    "full_name": "Luminosity Gaming",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/b9/Luminosity_Gaminglogo_profile.png/revision/latest?cb=20241127021753"
+  },
+  {
+    "short_name": "LYN.A",
+    "full_name": "LYON Academy",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/01/LYON_%282024_American_Team%29logo_profile.png/revision/latest?cb=20250109185841"
+  },
+  {
+    "short_name": "MU",
+    "full_name": "Maryville University",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/4/45/Maryville_Universitylogo_square.png/revision/latest?cb=20181101191446"
+  },
+  {
+    "short_name": "MAZ",
+    "full_name": "Maze Gaming",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/c/cd/Maze_Gaminglogo_square.png/revision/latest?cb=20211226222359"
+  },
+  {
+    "short_name": "MCON",
+    "full_name": "mCon esports",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/6/68/MCon_esportslogo_profile.png/revision/latest?cb=20250105142006"
+  },
+  {
+    "short_name": "MAMA",
+    "full_name": "Meavedron Anonymo Master Academy",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/5/54/Meavedron_Anonymo_Master_Academylogo_square.png/revision/latest?cb=20250202233327"
+  },
+  {
+    "short_name": "MVKA",
+    "full_name": "MGN Vikings Academy",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/84/Vikings_Esports_%282023_Vietnamese_Team%29logo_profile.png/revision/latest?cb=20240108193644"
+  },
+  {
+    "short_name": "MVKE",
+    "full_name": "MGN Vikings Esports",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/84/Vikings_Esports_%282023_Vietnamese_Team%29logo_profile.png/revision/latest?cb=20240108193644"
+  },
+  {
+    "short_name": "MG",
+    "full_name": "Mila Gaming",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/d/d6/Mila_Gaminglogo_square.png/revision/latest?cb=20250419060605"
+  },
+  {
+    "short_name": "MISA",
+    "full_name": "Misa Esports",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/d/d7/Misa_Esportslogo_profile.png/revision/latest?cb=20240104153110"
+  },
+  {
+    "short_name": "MWE",
+    "full_name": "Moon Wolf e-Sports",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/4/42/Moon_Wolf_e-Sportslogo_square.png/revision/latest?cb=20250211211152"
+  },
+  {
     "short_name": "MKOI",
     "full_name": "Movistar KOI",
     "region": "EMEA",
     "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/bd/Movistar_KOIlogo_square.png/revision/latest?cb=20240528162718"
   },
   {
-    "short_name": "NAVI",
-    "full_name": "Natus Vincere",
+    "short_name": "NRMK",
+    "full_name": "Nakrob Mangkorn",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/72/Nakrob_Mangkornlogo_square.png/revision/latest?cb=20250620211956"
+  },
+  {
+    "short_name": "NA",
+    "full_name": "Near Airport",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/b2/Near_Airportlogo_profile.png/revision/latest?cb=20250308235725"
+  },
+  {
+    "short_name": "NR",
+    "full_name": "Nexus Reapers",
     "region": "EMEA",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/ef/Natus_Vincerelogo_square.png/revision/latest?cb=20250519222608"
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/6/62/Nexus_Reaperslogo_square.png/revision/latest?cb=20250513211341"
   },
   {
-    "short_name": "OMG",
-    "full_name": "Oh My God",
-    "region": "China",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/0d/Oh_My_Godlogo_square.png/revision/latest?cb=20221227034426"
+    "short_name": "NGU",
+    "full_name": "NGU eSports",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/27/NGU_eSportslogo_square.png/revision/latest?cb=20250515120554"
   },
   {
-    "short_name": "OMG.A",
-    "full_name": "Oh My God Academy",
-    "region": "China",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/21/Oh_My_God_Academylogo_square.png/revision/latest?cb=20240128115832"
+    "short_name": "NBS",
+    "full_name": "Nightbirds",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/f/f7/Nightbirdslogo_square.png/revision/latest?cb=20250110233310"
+  },
+  {
+    "short_name": "NOC",
+    "full_name": "Nocturnals",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/04/Nocturnalslogo_square.png/revision/latest?cb=20250620211601"
+  },
+  {
+    "short_name": "ODD",
+    "full_name": "ODD Esports",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/73/ODD_Esportslogo_square.png/revision/latest?cb=20240315053840"
+  },
+  {
+    "short_name": "OSC",
+    "full_name": "Odivelas Sports Club",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/d/d9/Odivelas_Sports_Clublogo_square.png/revision/latest?cb=20220127072920"
+  },
+  {
+    "short_name": "OPT",
+    "full_name": "OP Team",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/b2/OP_Teamlogo_square.png/revision/latest?cb=20250620211710"
+  },
+  {
+    "short_name": "OG",
+    "full_name": "Original Gaming",
+    "region": "Vietnam",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/f/f6/Original_Gaminglogo_profile.png/revision/latest?cb=20231025142617"
+  },
+  {
+    "short_name": "OTS",
+    "full_name": "Otter Side",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/08/Otter_Sidelogo_square.png/revision/latest?cb=20250808202828"
+  },
+  {
+    "short_name": "PG",
+    "full_name": "PAGLE48",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/c/cb/PAGLE48logo_square.png/revision/latest?cb=20250410122729"
+  },
+  {
+    "short_name": "PAIN",
+    "full_name": "paiN Gaming",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/7c/PaiN_Gaminglogo_square.png/revision/latest?cb=20221211061225"
+  },
+  {
+    "short_name": "SUP",
+    "full_name": "Papara SuperMassive",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/85/Papara_SuperMassivelogo_profile.png/revision/latest?cb=20240108211026"
+  },
+  {
+    "short_name": "PK",
+    "full_name": "PÊEK Gaming",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/73/P%C3%8AEK_Gaminglogo_profile.png/revision/latest?cb=20230518082855"
   },
   {
     "short_name": "PTX",
@@ -168,10 +864,160 @@
     "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/a/a2/Pertinax_Esportslogo_square.png/revision/latest?cb=20220210164020"
   },
   {
-    "short_name": "SK",
-    "full_name": "SK Gaming",
+    "short_name": "PRO",
+    "full_name": "Pro Probably",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/7f/Pro_Probablylogo_square.png/revision/latest?cb=20250411180314"
+  },
+  {
+    "short_name": "RED.A",
+    "full_name": "RED Academy",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/d/dd/RED_Academylogo_square.png/revision/latest?cb=20180404004805"
+  },
+  {
+    "short_name": "RED",
+    "full_name": "RED Canids",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/e0/RED_Canidslogo_profile.png/revision/latest?cb=20230426042641"
+  },
+  {
+    "short_name": "RC",
+    "full_name": "REJECT",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/5/58/REJECTlogo_profile.png/revision/latest?cb=20250112095239"
+  },
+  {
+    "short_name": "RDG",
+    "full_name": "Reload Gaming",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/78/Reload_Gaminglogo_square.png/revision/latest?cb=20250422150154"
+  },
+  {
+    "short_name": "RISE.I",
+    "full_name": "Rise Gaming Ignis",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/e2/Rise_Gaminglogo_square.png/revision/latest?cb=20221014223939"
+  },
+  {
+    "short_name": "RMD",
+    "full_name": "RMD Gaming",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/90/RMD_Gaminglogo_square.png/revision/latest?cb=20250818170958"
+  },
+  {
+    "short_name": "ROSS",
+    "full_name": "ROSSMANN Centaurs",
     "region": "EMEA",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2f/SK_Gaminglogo_profile.png/revision/latest?cb=20221120001426"
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/8e/ROSSMANN_Centaurslogo_square.png/revision/latest?cb=20250122010633"
+  },
+  {
+    "short_name": "S8UL",
+    "full_name": "S8UL Esports",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/d/d8/S8UL_Esportslogo_square.png/revision/latest?cb=20250827141250"
+  },
+  {
+    "short_name": "DINO",
+    "full_name": "Saigon Dino",
+    "region": "Vietnam",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/4/47/Saigon_Dinologo_square.png/revision/latest?cb=20250218142609"
+  },
+  {
+    "short_name": "TS",
+    "full_name": "Saigon Secret",
+    "region": "Vietnam",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/c/cf/Team_Secret_%28Vietnamese_Team%29logo_square.png/revision/latest?cb=20210315172131"
+  },
+  {
+    "short_name": "SDM",
+    "full_name": "SDM Tigres",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/8f/SDM_Tigreslogo_square.png/revision/latest?cb=20250225154959"
+  },
+  {
+    "short_name": "7D",
+    "full_name": "Seven Dark",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/91/Seven_Darklogo_square.png/revision/latest?cb=20240824115914"
+  },
+  {
+    "short_name": "SR",
+    "full_name": "Shopify Rebellion",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/1/16/Shopify_Rebellionlogo_profile.png/revision/latest?cb=20230920185436"
+  },
+  {
+    "short_name": "SIC",
+    "full_name": "Sicar Esports",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/a/ac/Sicar_Esportslogo_profile.png/revision/latest?cb=20250327012429"
+  },
+  {
+    "short_name": "SSE",
+    "full_name": "Silent Storm Esports",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/d/d0/Silent_Storm_Esportslogo_square.png/revision/latest?cb=20250219175944"
+  },
+  {
+    "short_name": "SPG",
+    "full_name": "SleepyGoose",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/7f/SleepyGooselogo_square.png/revision/latest?cb=20250410123519"
+  },
+  {
+    "short_name": "ST",
+    "full_name": "Smoke Tram",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/f/fc/Smoke_Tramlogo_square.png/revision/latest?cb=20241119204950"
+  },
+  {
+    "short_name": "SCBC",
+    "full_name": "SN CyberCore Esports",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/f/f7/SN_CyberCore_Esportslogo_profile.png/revision/latest?cb=20250521160856"
+  },
+  {
+    "short_name": "SNZ",
+    "full_name": "SNOOZE Esports",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/4/4c/SNOOZE_Esportslogo_profile.png/revision/latest?cb=20240111210442"
+  },
+  {
+    "short_name": "SLY",
+    "full_name": "Solary",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/ec/Solarylogo_square.png/revision/latest?cb=20181130231519"
+  },
+  {
+    "short_name": "SLYA",
+    "full_name": "Solary Academy",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/ec/Solarylogo_square.png/revision/latest?cb=20181130231519"
+  },
+  {
+    "short_name": "SPT",
+    "full_name": "Spirit Esports",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/3/3f/Spirit_Esportslogo_square.png/revision/latest?cb=20250404162608"
+  },
+  {
+    "short_name": "SQG",
+    "full_name": "Spirit Quartz Gaming",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/6/6e/Spirit_Quartz_Gaminglogo_square.png/revision/latest?cb=20250326054935"
+  },
+  {
+    "short_name": "SPK",
+    "full_name": "Sportia Khore",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/6/6f/Sportia_Riderslogo_square.png/revision/latest?cb=20240820190859"
+  },
+  {
+    "short_name": "STE",
+    "full_name": "Stellae Gaming",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/4/4f/Stellae_Gaminglogo_profile.png/revision/latest?cb=20250311160359"
   },
   {
     "short_name": "FMS",
@@ -180,16 +1026,64 @@
     "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/71/Fajnie_Mie%C4%87_Sk%C5%82adlogo_square.png/revision/latest?cb=20250408135402"
   },
   {
-    "short_name": "BDS",
-    "full_name": "Team BDS",
-    "region": "EMEA",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/06/Team_BDSlogo_profile.png/revision/latest?cb=20220111204832"
+    "short_name": "SN",
+    "full_name": "Supernova",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/98/Supernovalogo_square.png/revision/latest?cb=20200412205940"
   },
   {
-    "short_name": "TH",
-    "full_name": "Team Heretics",
+    "short_name": "T1",
+    "full_name": "T1",
+    "region": "Korea",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/78/T1logo_profile.png/revision/latest?cb=20221015004607"
+  },
+  {
+    "short_name": "T1.EA",
+    "full_name": "T1 Esports Academy",
+    "region": "Korea",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/78/T1logo_profile.png/revision/latest?cb=20221015004607"
+  },
+  {
+    "short_name": "T1.R",
+    "full_name": "T1 Esports Academy Rookies",
+    "region": "Korea",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/78/T1logo_profile.png/revision/latest?cb=20221015004607"
+  },
+  {
+    "short_name": "TNI",
+    "full_name": "Tan'i eSports",
     "region": "EMEA",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/bf/Team_Hereticslogo_square.png/revision/latest?cb=20221027072323"
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/25/Tan%27i_eSportslogo_square.png/revision/latest?cb=20241022065001"
+  },
+  {
+    "short_name": "GMK",
+    "full_name": "Team GMask",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/0b/Team_GMasklogo_square.png/revision/latest?cb=20240323092229"
+  },
+  {
+    "short_name": "TL",
+    "full_name": "Team Liquid",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/25/Team_Liquidlogo_profile.png/revision/latest?cb=20230328025608"
+  },
+  {
+    "short_name": "TPX",
+    "full_name": "Team Paradox",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/e9/Team_Paradoxlogo_square.png/revision/latest?cb=20240920132139"
+  },
+  {
+    "short_name": "TP",
+    "full_name": "Team Phantasma",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/a/a5/Team_Phantasmalogo_profile.png/revision/latest?cb=20250103044805"
+  },
+  {
+    "short_name": "TSW",
+    "full_name": "Team Secret Whales",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/c/c9/Team_Secret_Whaleslogo_profile.png/revision/latest?cb=20241206071849"
   },
   {
     "short_name": "VIT",
@@ -198,28 +1092,16 @@
     "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/86/Team_Vitalitylogo_square.png/revision/latest?cb=20230224142251"
   },
   {
-    "short_name": "WE",
-    "full_name": "Team WE",
-    "region": "China",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/04/Team_WElogo_profile.png/revision/latest?cb=20210318224640"
+    "short_name": "TOGA",
+    "full_name": "TeamOrangeGaming Academy",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/a/aa/TeamOrangeGaminglogo_square.png/revision/latest?cb=20250222213357"
   },
   {
-    "short_name": "WE.A",
-    "full_name": "Team WE Academy",
-    "region": "China",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/a/a6/Team_WE_Academylogo_square.png/revision/latest?cb=20190220205705"
-  },
-  {
-    "short_name": "TT",
-    "full_name": "ThunderTalk Gaming",
-    "region": "China",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/22/ThunderTalk_Gaminglogo_square.png/revision/latest?cb=20210306231456"
-  },
-  {
-    "short_name": "TT.Y",
-    "full_name": "ThunderTalk Gaming Young",
-    "region": "China",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/5/5b/ThunderTalk_Gaming_Younglogo_square.png/revision/latest?cb=20220210015252"
+    "short_name": "TF",
+    "full_name": "Timeforce",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/8b/Timeforcelogo_square.png/revision/latest?cb=20250410125331"
   },
   {
     "short_name": "TES",
@@ -228,33 +1110,129 @@
     "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/3/35/Top_Esportslogo_profile.png/revision/latest?cb=20210318223317"
   },
   {
-    "short_name": "TES.C",
-    "full_name": "Top Esports Challenger",
-    "region": "China",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/97/Top_Esports_Challengerlogo_square.png/revision/latest?cb=20210318232640"
+    "short_name": "USE",
+    "full_name": "Unicorns of Love Sexy Edition",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/93/Unicorns_of_Love_Sexy_Editionlogo_square.png/revision/latest?cb=20200224135443"
   },
   {
-    "short_name": "UP",
-    "full_name": "Ultra Prime",
-    "region": "China",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/e8/Ultra_Primelogo_profile.png/revision/latest?cb=20210526084713"
+    "short_name": "MISS",
+    "full_name": "University of Mississippi",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/f/f9/University_of_Mississippilogo_square.png/revision/latest?cb=20230123203203"
   },
   {
-    "short_name": "WBG",
-    "full_name": "Weibo Gaming",
-    "region": "China",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/87/Weibo_Gaminglogo_profile.png/revision/latest?cb=20221110083550"
+    "short_name": "UST",
+    "full_name": "University of St. Thomas",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/99/University_of_St._Thomaslogo_profile.png/revision/latest?cb=20211007060020"
   },
   {
-    "short_name": "WBG.Y",
-    "full_name": "Weibo Gaming Youth Team",
-    "region": "China",
-    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/99/Weibo_Gaming_Youth_Teamlogo_profile.png/revision/latest?cb=20221110090423"
+    "short_name": "VKS",
+    "full_name": "Valkiria's Vikings",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2f/Valkiria%27s_Vikingslogo_square.png/revision/latest?cb=20241014195137"
+  },
+  {
+    "short_name": "VLY",
+    "full_name": "VARREL YOUTH",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/a/af/VARREL_YOUTHlogo_profile.png/revision/latest?cb=20250116115428"
+  },
+  {
+    "short_name": "VAS",
+    "full_name": "Vasco E-Sports",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/b8/Vasco_E-Sportslogo_square.png/revision/latest?cb=20250320150914"
+  },
+  {
+    "short_name": "VG",
+    "full_name": "Venus Gaming",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/4/41/Venus_Gaminglogo_square.png/revision/latest?cb=20210419162713"
+  },
+  {
+    "short_name": "VER",
+    "full_name": "Verdant",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/d/db/Verdantlogo_profile.png/revision/latest?cb=20250113212652"
+  },
+  {
+    "short_name": "VRB",
+    "full_name": "Vitality Rising Bees",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/f/f6/Vitality_Rising_Beeslogo_square.png/revision/latest?cb=20240414234331"
+  },
+  {
+    "short_name": "VITB",
+    "full_name": "Vitality.Bee",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/86/Team_Vitalitylogo_square.png/revision/latest?cb=20230224142251"
+  },
+  {
+    "short_name": "VKS",
+    "full_name": "Vivo Keyd Stars",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/0/0b/Vivo_Keyd_Starslogo_profile.png/revision/latest?cb=20221201003102"
+  },
+  {
+    "short_name": "VKS.A",
+    "full_name": "Vivo Keyd Stars Academy",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/1/15/Vivo_Keyd_Starslogo_square.png/revision/latest?cb=20221130053621"
+  },
+  {
+    "short_name": "WAP",
+    "full_name": "WAP Esports",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/1/1d/WAP_Esportslogo_square.png/revision/latest?cb=20220516185639"
+  },
+  {
+    "short_name": "WPA",
+    "full_name": "West Point Esports Academy",
+    "region": "Asia Pacific",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/83/West_Point_Esports_Academylogo_square.png/revision/latest?cb=20230820142438"
+  },
+  {
+    "short_name": "WD",
+    "full_name": "White Dragons",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/5/58/White_Dragonslogo_square.png/revision/latest?cb=20210814221549"
+  },
+  {
+    "short_name": "WU",
+    "full_name": "Winthrop University",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/d/dc/Winthrop_Universitylogo_square.png/revision/latest?cb=20210824071101"
+  },
+  {
+    "short_name": "WLG",
+    "full_name": "WLGaming Esports",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/2a/We_Love_Gaminglogo_square.png/revision/latest?cb=20210601052900"
+  },
+  {
+    "short_name": "ZNT",
+    "full_name": "ZennIT",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/95/ZennITlogo_square.png/revision/latest?cb=20220123172136"
+  },
+  {
+    "short_name": "ZERB",
+    "full_name": "Zerance Bloom",
+    "region": "EMEA",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/e6/Zerancelogo_square.png/revision/latest?cb=20240807171834"
   },
   {
     "short_name": "Z10",
     "full_name": "Zero Tenacity",
     "region": "EMEA",
     "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/bb/Zero_Tenacitylogo_square.png/revision/latest?cb=20250811172814"
+  },
+  {
+    "short_name": "Z5",
+    "full_name": "Zeu5 Esports",
+    "region": "Americas",
+    "image": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/a/ad/Zeu5_Esportslogo_square.png/revision/latest?cb=20250225123155"
   }
 ]
