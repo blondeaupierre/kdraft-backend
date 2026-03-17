@@ -12,7 +12,11 @@ champions = site.cargo_client.query(
     fields="C.Name"
 )
 
-champion_list = sorted({row["Name"] for row in champions if row["Name"]})
+champion_list = sorted({
+    row["Name"].replace("&amp;", "&")
+    for row in champions
+    if row["Name"]
+})
 
 # --- Charger drafts locales ---
 with (vocab_dir / "champions.txt").open("w", encoding="utf-8") as f:
