@@ -3,36 +3,18 @@ from pathlib import Path
 
 from mwrogue.esports_client import EsportsClient
 
+from src.utils.data_utils import load_teams
+
 site = EsportsClient("lol")
 
-vocab_dir = Path("../../resources/vocab")
-vocab_dir.mkdir(exist_ok=True)
+output_file = "../../resources/data/top_teams_offline_2025-06-01_drafts.csv"
 
-output_file = "../../resources/data/drafts_context_tokens.csv"
-
-# -----------------------------
-# Gather top X teams
-# -----------------------------
-top_X_teams = site.cargo_client.query(
-    tables="TournamentResults=TR",
-    fields="TR.Team",
-    where="TR.Place_Number <= '8'"
-    # "AND TR.Tier = 'Offline'"
-          "AND TR.Tier = 'Offline' OR  TR.Tier = 'Online/Offline'"
-          "AND TR.Date >= '2025-04-01'"
-          "AND TR.Team IS NOT NULL",
-    group_by="TR.Team"
-)
-
-teams = sorted({row["Team"] for row in top_X_teams if row["Team"]})
-
-with (vocab_dir / "teams.txt").open("w", encoding="utf-8") as f:
-    f.write("\n".join(teams))
-print(f"{len(teams)} teams saved to vocab/teams.txt")
+minimal_path="25.14"
 
 # -----------------------------
 # Get the drafts
 # -----------------------------
+teams = load_teams(Path("../../resources/data/top_teams_offline_2025-06-01.json"))
 escaped = [t.replace("'", "''") for t in teams]
 teams_filter = "('" + "','".join(escaped) + "')"
 
@@ -63,7 +45,7 @@ drafts = site.cargo_client.query(
            "PAB.Team1Pick5, "
            "PAB.Team2Pick5"
     ,
-    where="MS.Patch>='12.10' "
+    where=f"MS.Patch>={minimal_path} "
           "AND PAB.Team1 IS NOT NULL AND PAB.Team1 <> 'None' AND PAB.Team1 <> 'Missing Data'"
           "AND PAB.Team2 IS NOT NULL AND PAB.Team2 <> 'None' AND PAB.Team2 <> 'Missing Data'"
 
@@ -120,6 +102,12 @@ column_rename = {
     "Team2Pick5": "RED_PICK5"
 }
 
+# --- Remove HTML &amp; ---
+for row in drafts:
+    for k, v in row.items():
+        if isinstance(v, str):
+            row[k] = v.replace("&amp;", "&")
+
 new_fieldnames = [column_rename.get(col, col) for col in drafts[0].keys()]
 
 renamed_drafts = [{column_rename.get(k, k): v for k, v in row.items()} for row in drafts]
@@ -133,6 +121,6 @@ print(f"Dataset saved to {output_file}, total drafts: {len(drafts)}")
 
 # -------- Patches --------
 patches = sorted({row["Patch"] for row in drafts if row["Patch"]})
-with (vocab_dir / "patches.txt").open("w", encoding="utf-8") as f:
+with Path("../../resources/vocab/patches.txt").open("w", encoding="utf-8") as f:
     f.write("\n".join(patches))
 print(f"{len(patches)} patches saved to vocab/patches.txt")

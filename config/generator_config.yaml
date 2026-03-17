@@ -1,8 +1,0 @@
-# config/train_config.yaml
-model_path: resources/trained_models/drafts_context_tokens_model
-tokenizer_path: resources/tokenizer
-champions_path: resources/vocab/champions.txt
-partial_sequence_path: resources/custom_sequences/partial_sequence.txt
-draft_tokens_path: resources/vocab/draft_tokens.txt
-draft_max_length: 50
-top_k: 3

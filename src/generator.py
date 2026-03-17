@@ -2,10 +2,9 @@ import logging
 
 import torch
 import torch.nn.functional as F
-from torch.cuda import device
 from transformers import PreTrainedTokenizerFast, GPT2LMHeadModel, LogitsProcessorList
 
-from src.utils.data_utils import load_partial_sequence, load_txt
+from src.utils.data_utils import load_txt
 from src.utils.logits_processors import StrictForceTagsProcessor, NoDuplicateChampionsProcessor
 
 
@@ -17,7 +16,6 @@ class DraftModelGenerator:
             model_path: str,
             tokenizer_path: str,
             champions_path: str,
-            partial_sequence_path: str,
             draft_tokens_path: str,
             draft_max_length: int,
             log_level: str = "INFO"
@@ -40,9 +38,6 @@ class DraftModelGenerator:
         # Draft max length
         self.draft_max_length = draft_max_length
 
-        # Partial sequence
-        self.partial_sequence = load_partial_sequence(partial_sequence_path)
-
         # Set device
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         self.model.to(self.device)
@@ -50,33 +45,39 @@ class DraftModelGenerator:
 
         self.champions_path = champions_path
         self.draft_tokens_path = draft_tokens_path
-        # Logit Processors
-        self.tag_processor = StrictForceTagsProcessor(self.tokenizer, self.draft_tokens_path, self.partial_sequence)
-        self.no_duplicate_processor = NoDuplicateChampionsProcessor(self.tokenizer, self.champions_path, self.draft_tokens_path, self.partial_sequence)
 
-    def _prepare_inputs(self):
+
+    def _prepare_inputs(self, partial_sequence):
         """Tokenize the partial sequence for generation."""
         inputs = self.tokenizer(
-            self.partial_sequence.split(","),
+            partial_sequence.split(","),
             is_split_into_words=True,
             return_tensors="pt"
         )
         return {k: v.to(self.device) for k, v in inputs.items()}
 
-    def generate_sequence(self):
+    def generate_sequence(self, partial_sequence):
         """Generate the draft sequence applying logits processors."""
-        inputs = self._prepare_inputs()
-        logits_processor = LogitsProcessorList([self.tag_processor, self.no_duplicate_processor])
+
+        inputs = self._prepare_inputs(partial_sequence)
+
+        # Logit Processors
+        tag_processor = StrictForceTagsProcessor(self.tokenizer, self.draft_tokens_path, partial_sequence)
+        no_duplicate_processor = NoDuplicateChampionsProcessor(self.tokenizer, self.champions_path, self.draft_tokens_path, partial_sequence)
+        logits_processor = LogitsProcessorList([tag_processor, no_duplicate_processor])
 
         with torch.no_grad():
             outputs = self.model.generate(
                 **inputs,
                 max_length=self.draft_max_length,
-                do_sample=False,
                 return_dict_in_generate=True,
                 output_scores=True,
-                repetition_penalty=2.0,
-                logits_processor=logits_processor
+                logits_processor=logits_processor,
+                do_sample=False,
+                temperature=0.8,
+                top_p=0.9,
+                top_k=50,
+                repetition_penalty=1.2
             )
 
         return outputs
