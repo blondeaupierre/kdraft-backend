@@ -1,3 +1,0 @@
-# config/train_config.yaml
-vocab_dir: resources/vocab
-save_dir: resources/tokenizer
