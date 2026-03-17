@@ -4,10 +4,10 @@ from sklearn.model_selection import train_test_split
 from src.utils.data_utils import load_draft_tokens
 
 # Load drafts
-drafts_df = pd.read_csv("../../resources/data/drafts_context_tokens.csv")
+drafts_df = pd.read_csv("../../resources/data/top_teams_offline_2025-06-01_drafts.csv")
 
 # Load draft tokens in order
-draft_tokens = load_draft_tokens("../resources/data/draft_tokens.txt")
+draft_tokens = load_draft_tokens("../../resources/vocab/draft_tokens.txt")
 
 # Generate sequences
 sequences = []
@@ -47,8 +47,8 @@ val_df = pd.DataFrame({"sequence": [",".join(seq) for seq in val]})
 test_df = pd.DataFrame({"sequence": [",".join(seq) for seq in test]})
 
 # Save CSVs
-train_df.to_csv("../resources/datasets/train_context_tokens.csv", index=False)
-val_df.to_csv("../resources/datasets/val_context_tokens.csv", index=False)
-test_df.to_csv("../resources/datasets/test_context_tokens.csv", index=False)
+train_df.to_csv("../../resources/datasets/train_top_teams_offline_2025-06-01_dataset.csv", index=False)
+val_df.to_csv("../../resources/datasets/val_top_teams_offline_2025-06-01_dataset.csv", index=False)
+test_df.to_csv("../../resources/datasets/test_top_teams_offline_2025-06-01_dataset.csv", index=False)
 
 print("Saved train/val/test CSVs.")
