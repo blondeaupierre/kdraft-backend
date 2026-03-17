@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load CSV
-df = pd.read_csv("../../resources/data/drafts_context_tokens.csv")
+df = pd.read_csv("../../resources/data/top_teams_offline_2025-06-01_drafts.csv")
 
 # Columns containing champions
 champion_cols = [
@@ -20,11 +20,13 @@ total_picks = champion_counts.sum()
 
 # Add frequency %
 champion_freq = (champion_counts / total_picks * 100).round(2)
-
 # Print all champions with counts and %
+
 print("Champion\tCount\tFreq (%)")
 for champion in champion_counts.index:
     print(f"{champion}\t{champion_counts[champion]}\t{champion_freq[champion]}")
+
+champion_counts.head(20)
 
 # Plot top N champions
 top_n = 50
